@@ -4,6 +4,11 @@ const PhoneDetail = ({phone, handleClick}) => {
 
     return(
       <div className="detail-phone">
+        <div className="d-flex justify-content-end">
+          <div className="detail-btn" onClick={handleClick}>
+            <span>Go back</span>
+          </div>  
+        </div>
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="detail-img d-flex justify-content-center">
