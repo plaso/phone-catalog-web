@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://phone-catalog.herokuapp.com/phones';
+const API_URL = 'http://localhost:3000/phones';
 
 const getPhones = () => {
   return axios.get(API_URL)
