@@ -8,4 +8,4 @@ The project has been published [here](https://plaso.github.io/phone-catalog-web/
 ## Localhost
 
 If you want to try it in local, just fork the project or download it and run `npm run start`.
-Don't forget to run the api in localhost too. You can get it [here](https://plaso.github.io/phone-catalog-web/).
+Don't forget to run the api in localhost too. You can get it [here](https://github.com/plaso/phone-catalog-api).
