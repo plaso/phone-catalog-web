@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+@import 'variables';
+@import 'navbar';
+@import 'card';
+@import 'spinner';
+@import 'detail';
+
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: $lightgrey;
+  font-family: 'Poppins', sans-serif;
+  color: $black;
+}

@@ -1,0 +1,40 @@
+.card {
+  background-color: $white;
+  border: 1px solid $grey;
+  border-radius: 0.5rem;
+
+  .card-img {
+    padding: 1.25rem 1.25rem 0;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-height: 300px;
+    }
+  }
+
+  .card-body {
+    padding: 1.25rem 1.25rem 0;
+
+    .card-price {
+      color: $yellow;
+    }
+  }
+
+  .card-btn {
+    background-color: $purple;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $darkpurple;
+    }
+
+    span {
+      color: $white;
+    }
+  }
+}
